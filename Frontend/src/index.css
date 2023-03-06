@@ -1,0 +1,329 @@
+.container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-carousel-container .carousel-caption {
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  height: fit-content;
+} 
+
+.color_strip{
+  height: 50px;
+  width: 100%;
+  background-color: #454b59;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.svg_icon{
+  color: white;
+  transform: scale(1.5);
+  margin: auto;
+}
+
+.carousel-inner{
+width: 100%;
+height: 100%;
+}
+
+.featured_trips{
+  display: grid;
+  grid-template-columns: 100%;  
+  row-gap: 20px;
+}
+
+.profile_link_styles{
+  margin: auto; 
+  width: 50%; 
+  display: grid; 
+  grid-template-columns: 30% 30%;
+  justify-content: space-evenly
+}
+
+.navbar{
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: larger;
+}
+
+.navbar .nav-link{
+  font-size: 17px;
+}
+
+.navbar .nav-link:hover{
+  opacity: .7;
+}
+
+.bottom-banner-background{
+  mask-image: linear-gradient(to top, black 10%, transparent)
+}
+
+.login-status-div{
+  display: flex;
+  flex: .4;
+  font-size: 17px;
+  height: 100%;
+  text-align: right;
+}
+
+.login-status-text{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: right;
+  align-items: center;
+  padding-right: 4%;
+}
+
+.login-status-button{
+  flex: 1;
+  height: 100%;
+}
+
+.trip-details-button{
+  border-radius: 18px !important;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  opacity: .8;
+}
+
+.navbar .btn-outline-primary{
+  font-size: 17px;
+}
+
+.card-text {
+  color: black;
+}
+
+.card{
+  box-shadow: 0px 0px 10px 0px rgba(22, 22, 26, 0.18);
+  margin: auto;
+  overflow: hidden;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px 0px rgba(22, 22, 26, 0.544);
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.paragraph_image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.paragraph_and_picture {
+  padding-top: 1%;
+}
+
+.modal-header{
+  background-color: rgba(0,0,0,.2);
+}
+
+.modalData{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-Items: center;
+  background: rgb(0,0,0,.2);
+  padding: 30px
+}
+
+.image-gallery-modal-width{
+  min-width: 75%;
+}
+.update-trip-modal-width{
+  min-width: 75%;
+}
+
+@media only screen and (min-width: 480px) {
+  .featured_trips{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;  
+  }
+
+  .trip-details-content{
+  display: grid;
+  grid-template-columns: 65% 30%;  
+  }
+
+  .fixed-sidebar{
+    position: sticky;
+    top: 15px;
+  }
+
+  .search-and-trip-cards{
+    display: grid;
+    grid-template-columns: 20% 80%;  
+  }
+
+  .banner-text-section{
+    height: 150px !important;
+    padding-top: 30px !important;
+    padding-inline: 80px !important;
+  }
+
+  .bottom-banner-writing-strip{
+    display: grid;
+    grid-template-columns: 70% 30%;  
+  }
+
+  .bottom-banner-strip{
+    height: 300px !important;
+  }
+
+  .search-and-filter{
+    width: 500px !important;
+  }
+
+  .para_grid_img_right{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .para_grid_img_left{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
+
+.bottom-banner-strip{
+  height: 450;
+}
+
+.banner-text-section{
+  text-align: center;
+  height: 225px;
+  position: static;
+  z-index: 2;
+  padding-top: 10px;
+  padding-inline: 10px;
+}
+
+.bottom-banner-writing-strip{
+  word-wrap: break-word;
+  height: 100%;
+}
+
+.search_bar{
+  display: grid;
+  grid-template-columns: 85% 15%;
+  margin: auto;
+}
+
+.search_inputField{
+  outline: none;
+  border: none;
+}
+
+.search-and-filter{
+  margin: auto;
+  padding-bottom: 15px;
+  width: 100%
+}
+
+.search_inputField:focus{
+  outline: none;
+  border: none
+}
+
+.search_icon{
+  margin-left: auto;
+}
+.column{
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.itineraryDiv{
+  width: 100%;
+  border: 2px solid rgba(4, 169, 251, 0.941);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  margin-top: 20px;
+  position: relative;
+}
+
+.fixed-sidebar{
+  top: 15px;
+}
+
+.sidebar-info{
+  border: 2px solid rgba(4, 169, 251, 0.941);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.half-line-height{
+  line-height: .5;
+}
+
+.trip-details-carousel-container :hover{
+  opacity: .8;
+  transition: .3s;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.overlay-carousel{
+  z-index: 10;
+  position: absolute;
+  color: #fff;
+}
+
+.registration-form-div{
+  width: 100%;
+  height: 325px;
+}
+
+.inputField{
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  border: solid #ccc 3px;
+}
+
+.inputField-long{
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  border: solid #ccc 3px;
+}
+
+.inputField:focus, .inputField-long:focus{
+  border: solid rgb(152, 195, 255) 3px;
+  outline: none;
+}
+
+.addItemButton{
+  height: 38px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: auto
+}
+
+.text-button{
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+}
