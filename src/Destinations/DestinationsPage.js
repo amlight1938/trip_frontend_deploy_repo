@@ -3,7 +3,7 @@ import campfire_field from '../Assets/campfire_field.jpg'
 import TopBanner from "../TopBanner";
 
 const DestinationsPage = () => {
-    const api_url = 'https://deploy-branch.d2t5sfhoijxb3g.amplifyapp.com/api/v1/trips'
+    const api_url = 'https://test-branch.d2wtxxea61f4fu.amplifyapp.com//api/v1/trips'
 
     return (
         <>
