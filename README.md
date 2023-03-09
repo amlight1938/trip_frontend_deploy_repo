@@ -9,7 +9,7 @@ Taking the form of a professional tour guide company's website, this project is 
 - RESTful web application utilizes CRUD (create, read, update, destroy) operations between frontend and backend API
 - Implements SQL on relational database with associations between users, trips, activities, itineraries, and images
 - Users can securely create accounts, login, and create, update, or delete custom trips using -Bcrypt (password salting and hashing library)
-- Integrates AWS S3 for storage of images
+- Integrates Amazon Web Services for photo storage and CI/CD pipelines
 - Ability to search all trips for keywords
 - CSS accomodates both computer and smartphone screens
 
